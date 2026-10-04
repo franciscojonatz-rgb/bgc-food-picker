@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import random
+from restaurants import restaurants
 
 app = Flask(__name__)
 
