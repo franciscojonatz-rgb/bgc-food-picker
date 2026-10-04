@@ -3,34 +3,240 @@ restaurants = [
         "name": "Manam",
         "cuisine": "Filipino",
         "price": "₱₱",
-        "vibe": ["Casual", "Group", "Family"]
+        "vibe": "Casual / Group",
     },
-
     {
-        "name": "Mendokoro Ramenba",
-        "cuisine": "Japanese",
+        "name": "Mendokoro Ramenba BGC",
+        "cuisine": "Japanese / Ramen",
         "price": "₱₱",
-        "vibe": ["Casual", "Ramen"]
+        "vibe": "Casual",
     },
-
     {
         "name": "Mamou",
         "cuisine": "Steakhouse",
         "price": "₱₱₱₱",
-        "vibe": ["Date Night", "Special Occasion"]
+        "vibe": "Date Night / Special Occasion",
     },
-
     {
         "name": "Gallery by Chele",
-        "cuisine": "Modern Filipino",
+        "cuisine": "Modern Filipino / International",
         "price": "₱₱₱₱",
-        "vibe": ["Fine Dining", "Special Occasion"]
+        "vibe": "Fine Dining / Date Night",
     },
-
     {
-        "name": "COCHI",
+        "name": "COCHI by Marvin Agustin",
         "cuisine": "Filipino",
         "price": "₱₱₱",
-        "vibe": ["Dinner", "Group"]
-    }
+        "vibe": "Dinner / Group",
+    },
+    {
+        "name": "a mano BGC",
+        "cuisine": "Italian",
+        "price": "₱₱₱",
+        "vibe": "Date Night / Casual Upscale",
+    },
+    {
+        "name": "Bolero BGC",
+        "cuisine": "Spanish / Modern European",
+        "price": "₱₱₱",
+        "vibe": "Date Night / Drinks",
+    },
+    {
+        "name": "El Born BGC",
+        "cuisine": "Catalan / Spanish",
+        "price": "₱₱₱",
+        "vibe": "Dinner / Date Night",
+    },
+    {
+        "name": "Sariwon Korean Barbecue BGC",
+        "cuisine": "Korean BBQ",
+        "price": "₱₱₱",
+        "vibe": "Group / Dinner",
+    },
+    {
+        "name": "CIBO - Uptown BGC",
+        "cuisine": "Italian",
+        "price": "₱₱",
+        "vibe": "Casual / Family",
+    },
+    {
+        "name": "Goobne BGC",
+        "cuisine": "Korean",
+        "price": "₱₱",
+        "vibe": "Casual / Group",
+    },
+    {
+        "name": "Pizzulu BGC",
+        "cuisine": "Italian / Pizza",
+        "price": "₱₱",
+        "vibe": "Casual / Group",
+    },
+    {
+        "name": "Ma•Ma•Ci•Ta BGC",
+        "cuisine": "Mexican",
+        "price": "₱₱₱",
+        "vibe": "Drinks / Group",
+    },
+    {
+        "name": "Tartufo Ristorante BGC",
+        "cuisine": "Italian",
+        "price": "₱₱₱",
+        "vibe": "Date Night / Special Occasion",
+    },
+    {
+        "name": "Brasserie Sagana",
+        "cuisine": "French",
+        "price": "₱₱₱",
+        "vibe": "Date Night / Business",
+    },
+    {
+        "name": "Las Flores",
+        "cuisine": "Spanish",
+        "price": "₱₱₱",
+        "vibe": "Date Night / Drinks",
+    },
+    {
+        "name": "City Hot Pot",
+        "cuisine": "Chinese / Hot Pot",
+        "price": "₱₱₱",
+        "vibe": "Group / Dinner",
+    },
+    {
+        "name": "George and Onnie's BGC",
+        "cuisine": "Filipino",
+        "price": "₱₱",
+        "vibe": "Casual / Family",
+    },
+    {
+        "name": "Locavore BGC",
+        "cuisine": "Modern Filipino",
+        "price": "₱₱",
+        "vibe": "Casual / Group",
+    },
+    {
+        "name": "Inari Sukiyaki BGC",
+        "cuisine": "Japanese / Sukiyaki",
+        "price": "₱₱",
+        "vibe": "Casual / Group",
+    },
+    {
+        "name": "Ramen Ibuki BGC",
+        "cuisine": "Japanese / Ramen",
+        "price": "₱₱",
+        "vibe": "Casual",
+    },
+    {
+        "name": "Bueno Tapas & Wine BGC",
+        "cuisine": "Spanish",
+        "price": "₱₱₱",
+        "vibe": "Date Night / Drinks",
+    },
+    {
+        "name": "Premier The Samgyupsal BGC",
+        "cuisine": "Korean BBQ",
+        "price": "₱₱",
+        "vibe": "Group / Dinner",
+    },
+    {
+        "name": "Chung Dam Korean Casual Dining BGC",
+        "cuisine": "Korean",
+        "price": "₱₱₱",
+        "vibe": "Group / Special Occasion",
+    },
+    {
+        "name": "Uma Nota Manila",
+        "cuisine": "Japanese / Brazilian Fusion",
+        "price": "₱₱₱₱",
+        "vibe": "Date Night / Drinks",
+    },
+    {
+        "name": "Terraza Martinez",
+        "cuisine": "Spanish",
+        "price": "₱₱₱",
+        "vibe": "Date Night / Group",
+    },
+    {
+        "name": "Los Tacos MNL",
+        "cuisine": "Mexican",
+        "price": "₱₱",
+        "vibe": "Casual / Group",
+    },
+    {
+        "name": "Canton Road",
+        "cuisine": "Chinese / Cantonese",
+        "price": "₱₱₱₱",
+        "vibe": "Fine Dining / Family",
+    },
+    {
+        "name": "HIRO PREMIER Japanese Yakiniku",
+        "cuisine": "Japanese BBQ",
+        "price": "₱₱₱₱",
+        "vibe": "Group / Special Occasion",
+    },
+    {
+        "name": "Sabai",
+        "cuisine": "Thai",
+        "price": "₱₱",
+        "vibe": "Casual / Group",
+    },
+    {
+        "name": "Burnt Bean",
+        "cuisine": "Modern Filipino / International",
+        "price": "₱₱₱",
+        "vibe": "Casual / Date Night",
+    },
+    {
+        "name": "Your Local",
+        "cuisine": "Modern Asian",
+        "price": "₱₱₱",
+        "vibe": "Casual / Date Night",
+    },
+    {
+        "name": "Wildflour Cafe + Bakery BGC",
+        "cuisine": "Cafe / International",
+        "price": "₱₱",
+        "vibe": "Brunch / Casual",
+    },
+    {
+        "name": "Ooma",
+        "cuisine": "Japanese",
+        "price": "₱₱",
+        "vibe": "Casual / Group",
+    },
+    {
+        "name": "Ramen Ron BGC",
+        "cuisine": "Japanese / Ramen",
+        "price": "₱₱",
+        "vibe": "Casual",
+    },
+    {
+        "name": "Ikoka Yakitori BGC",
+        "cuisine": "Japanese / Yakitori",
+        "price": "₱₱₱",
+        "vibe": "Dinner / Drinks",
+    },
+    {
+        "name": "Nikkei Nama Bar",
+        "cuisine": "Japanese / Peruvian",
+        "price": "₱₱₱",
+        "vibe": "Date Night / Casual Upscale",
+    },
+    {
+        "name": "Mama Lou's Italian Kitchen BGC",
+        "cuisine": "Italian",
+        "price": "₱₱",
+        "vibe": "Casual / Family",
+    },
+    {
+        "name": "Parmigiano Authentic Italian Restaurant",
+        "cuisine": "Italian",
+        "price": "₱₱",
+        "vibe": "Casual / Date Night",
+    },
+    {
+        "name": "Italianni's Bonifacio High Street",
+        "cuisine": "Italian / American",
+        "price": "₱₱",
+        "vibe": "Casual / Group",
+    },
 ]
