@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BGC Food Picker</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+</head>
+
+<body>
+
+    <main class="container">
+
+        <p class="eyebrow">BGC FOOD PICKER</p>
+
+        <h1>Where should we eat?</h1>
+
+        <p class="subtitle">
+            Stop arguing. Let BGC decide.
+        </p>
+
+        <a href="/generate" class="generate-button">
+            🎲 Generate
+        </a>
+
+        {% if restaurant %}
+
+        <div class="restaurant-card">
+
+            <p class="picked-label">
+                TONIGHT'S PICK
+            </p>
+
+            <h2>{{ restaurant.name }}</h2>
+
+            <div class="details">
+
+                <span>
+                    🍜 {{ restaurant.cuisine }}
+                </span>
+
+                <span>
+                    💰 {{ restaurant.price }}
+                </span>
+
+                <span>
+                    ✨ {{ restaurant.vibe }}
+                </span>
+
+            </div>
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query={{ restaurant.name }} BGC"
+                target="_blank"
+                class="map-button"
+            >
+                📍 Open in Google Maps
+            </a>
+
+        </div>
+
+        {% endif %}
+
+    </main>
+
+</body>
+</html>
